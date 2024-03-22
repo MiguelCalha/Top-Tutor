@@ -1,4 +1,7 @@
-# Introduction to TopTutor
+# ✨Top Tutor ✨
+
+
+## Introduction to TopTutor
 
 Welcome to TopTutor, your ultimate destination for personalized tutoring services, where students can connect with expert tutors to achieve academic excellence. TopTutor is dedicated to providing a seamless platform that empowers both tutors and students alike, offering a wide array of functionalities to enhance the learning experience.
 
