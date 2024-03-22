@@ -5,6 +5,21 @@
 
 Welcome to TopTutor, your ultimate destination for personalized tutoring services, where students can connect with expert tutors to achieve academic excellence. TopTutor is dedicated to providing a seamless platform that empowers both tutors and students alike, offering a wide array of functionalities to enhance the learning experience.
 
+### Steps to run project
+1. Clone the TopTutor repository from GitHub: [TopTutor Repository](https://github.com/MiguelCalha/Top-Tutor.git).
+2. Open the solution file `TopTutor.sln` in Visual Studio.
+3. Configure the database connection string in the `appsettings.json` file to point to your SQL Server instance.
+4. Open the Package Manager Console in Visual Studio.
+5. Delete the Migrations folder
+6. Run the following commands in the Package Manager Console:
+```sh
+Add-Migration Initial
+```
+
+```sh
+update-database
+```
+
 ## Key Functionalities
 
 ### Authentication
