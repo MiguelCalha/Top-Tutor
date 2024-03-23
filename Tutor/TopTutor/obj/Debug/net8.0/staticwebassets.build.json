@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZB9k4LPrHod1/rmQ1u0VWZjfYZVGW5FdMo5a1Cieksw=",
+  "Hash": "5DtHjTEXzTWqtMgyNkfYdUPDVsH9MAjFjWh0cYuG4ec=",
   "Source": "TopTutor",
   "BasePath": "_content/TopTutor",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\logo.png",
+      "SourceId": "TopTutor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\",
+      "BasePath": "_content/TopTutor",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\site.js",
