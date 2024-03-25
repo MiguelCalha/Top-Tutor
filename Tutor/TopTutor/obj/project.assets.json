@@ -1502,6 +1502,45 @@
             "rid": "win"
           }
         }
+      },
+      "TopTutor.DataAcess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
+          "TopTutor.Models": "1.0.0",
+          "TopTutor.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TopTutor.DataAcess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TopTutor.DataAcess.dll": {}
+        }
+      },
+      "TopTutor.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TopTutor.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TopTutor.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TopTutor.Models.dll": {}
+        }
+      },
+      "TopTutor.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TopTutor.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TopTutor.Utility.dll": {}
+        }
       }
     }
   },
@@ -4096,13 +4135,29 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TopTutor.DataAcess/1.0.0": {
+      "type": "project",
+      "path": "../TopTutor.DataAccess/TopTutor.DataAcess.csproj",
+      "msbuildProject": "../TopTutor.DataAccess/TopTutor.DataAcess.csproj"
+    },
+    "TopTutor.Models/1.0.0": {
+      "type": "project",
+      "path": "../TopTutor.Models/TopTutor.Models.csproj",
+      "msbuildProject": "../TopTutor.Models/TopTutor.Models.csproj"
+    },
+    "TopTutor.Utility/1.0.0": {
+      "type": "project",
+      "path": "../TopTutor.Utility/TopTutor.Utility.csproj",
+      "msbuildProject": "../TopTutor.Utility/TopTutor.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
+      "TopTutor.DataAcess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4136,7 +4191,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

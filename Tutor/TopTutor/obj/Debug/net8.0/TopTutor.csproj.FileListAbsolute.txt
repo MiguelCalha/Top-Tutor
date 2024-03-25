@@ -135,3 +135,9 @@ C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\runtimes\win\li
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\TopTutor.csproj.AssemblyReference.cache
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\TopTutor.csproj.Up2Date
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.DataAcess.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.Models.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.Utility.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.DataAcess.pdb
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.Models.pdb
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\TopTutor.Utility.pdb

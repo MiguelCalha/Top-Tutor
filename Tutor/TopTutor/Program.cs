@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TopTutor.Data;
+using TopTutor.DataAcess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
