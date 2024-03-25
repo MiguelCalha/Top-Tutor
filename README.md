@@ -55,10 +55,10 @@ update-database
 - **Consult Purchase Information**: Users can access information regarding their purchases.
 
 # Used Technologies
-** N-Tier Architecure
-** Entity Framework
-** ASP .NET 8.0
-** MSSQL
-** Bootswatch
+-**N-Tier Architecure
+-**Entity Framework
+-**ASP .NET 8.0
+-**MSSQL
+-**Bootswatch
 
 TopTutor is committed to revolutionizing the tutoring experience, providing a user-friendly platform where tutors and students can seamlessly connect and collaborate. Join us today and embark on your journey towards academic success with TopTutor!
