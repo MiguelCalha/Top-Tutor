@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TopTutor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a31590220311e8f7266c716c79b223b07ba0cccc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4949e4f968a9d50d1e7e354326d60a21d99e528b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TopTutor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TopTutor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
