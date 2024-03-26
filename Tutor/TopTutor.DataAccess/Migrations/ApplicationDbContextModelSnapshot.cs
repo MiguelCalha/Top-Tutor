@@ -34,7 +34,8 @@ namespace TopTutor.DataAcess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -58,6 +59,92 @@ namespace TopTutor.DataAcess.Migrations
                             Id = 3,
                             DisplayOrder = 3,
                             Name = "Línguas"
+                        });
+                });
+
+            modelBuilder.Entity("TopTutor.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TutorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Explicações de programação",
+                            ListPrice = 10.0,
+                            Title = "Programming Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Explicações de matemática",
+                            ListPrice = 10.0,
+                            Title = "Math Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Explicações de inglês",
+                            ListPrice = 10.0,
+                            Title = "English Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Explicações de francês",
+                            ListPrice = 10.0,
+                            Title = "French Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Explicações de espanhol",
+                            ListPrice = 10.0,
+                            Title = "Spanish Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "Explicações de alemão",
+                            ListPrice = 10.0,
+                            Title = "German Tutoring",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Description = "Explicações de italiano",
+                            ListPrice = 10.0,
+                            Title = "Italian Tutoring",
+                            TutorName = "Miguel Calha"
                         });
                 });
 #pragma warning restore 612, 618
