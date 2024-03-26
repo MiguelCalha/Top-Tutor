@@ -2,7 +2,139 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+                <div>
+                    <h1>Welcome to TopTutor!</h1>
+                    <h2>Whether you're a student seeking personalized tutoring or a tutor looking to showcase your expertise, TopTutor provides a comprehensive platform designed to facilitate seamless interactions and foster academic growth.</h2>
+                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+                <img src="~/img/light.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="zoom-in">
+                    <img src="~/img/tutor2.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
+                    <div class="content pt-4 pt-lg-0">
+                        <h3>About TopTutor</h3>
+                        <p class="fst-italic">
+                            TopTutor is your go-to destination for personalized tutoring services. We are dedicated to providing a seamless platform where students can connect with expert tutors to achieve academic excellence.
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> We strive to offer top-quality tutoring services tailored to your needs.</li>
+                            <li><i class="bi bi-check-circle"></i> Our tutors are experienced professionals committed to helping you succeed.</li>
+                            <li><i class="bi bi-check-circle"></i> With a diverse range of subjects and topics, we've got you covered for all your learning needs.</li>
+                        </ul>
+                        <p>
+                            Join us at TopTutor and embark on a journey of learning and growth. Let's work together to unlock your full potential!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container">
+
+            <div class="row" data-aos="zoom-in">
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h3>Unlock Your Potential with TopTutor</h3>
+                    <p>Ready to take your learning to the next level? Join TopTutor today and connect with expert tutors who can help you achieve your academic goals. Whether you need help with math, science, language arts, or any other subject, we've got you covered. Don't let learning obstacles hold you back - let's work together to unlock your full potential!</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="#">Get Started Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+        <div class="container">
+
+            <div class="section-title" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <ul class="faq-list">
+
+                <li>
+                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is TopTutor and who developed it? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            TopTutor is a platform developed in 2024 as part of a college course in visual programming. It was created by João Damaso, Miguel Calha, and Marcos Jesus. The platform is designed to help users find the best tutors in various subjects. It is completely free to use, and TopTutor acts as an intermediary for payments between users and tutors.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How does TopTutor work? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            TopTutor connects students with expert tutors in a wide range of subjects. Users can browse through tutor listings, view detailed profiles, and schedule tutoring sessions directly through the platform. TopTutor facilitates the payment process between users and tutors, ensuring a seamless and secure transaction experience.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Is TopTutor free to use? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            Yes, TopTutor is completely free for users to use. There are no subscription fees or hidden charges. Users can browse tutors, schedule sessions, and make payments without any additional costs.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How can I become a tutor on TopTutor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            To become a tutor on TopTutor, you can sign up for an account and create a detailed profile showcasing your qualifications, expertise, and availability. Once your profile is approved, you can start offering your tutoring services to students.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">How do payments work on TopTutor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            TopTutor facilitates payments between users and tutors through a secure payment gateway. Users can add payment details to their account and make payments for tutoring sessions directly through the platform. TopTutor ensures that all transactions are safe, secure, and hassle-free.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">How can I contact TopTutor for support? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                    <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            If you have any questions, concerns, or feedback, you can contact TopTutor's customer support team through the contact form on our website. Our team is dedicated to providing assistance and ensuring that your experience on TopTutor is positive and enjoyable.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section><!-- End Frequently Asked Questions Section -->
+

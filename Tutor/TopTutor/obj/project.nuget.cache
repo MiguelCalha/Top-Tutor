@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TEMrlrZm5orosd/BMC8OnS6d6otl55D+dh14mEnKD5eZUZczPpiGOHHTLz/AvhIEvP0IIHk1Vj8DAD5AaPmlKw==",
+  "dgSpecHash": "vckpGalT67eBK1ctvbMQ+6dogrLKSh8EVRxF8qbKvTJVy8oUDGX9z+Y/vBTz9h8Xx1ZN0ub3B2GwR0XQOD+BPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj",
+  "projectFilePath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\TopTutor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duart\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

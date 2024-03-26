@@ -4167,11 +4167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj",
+      "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\TopTutor.csproj",
       "projectName": "TopTutor",
-      "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj",
+      "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\TopTutor.csproj",
       "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\obj\\",
+      "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4192,8 +4192,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj": {
-              "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj"
+            "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj"
             }
           }
         }
