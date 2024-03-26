@@ -1,17 +1,172 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duart\\Desktop\\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\\Tutor\\TopTutor\\TopTutor.csproj": {}
+    "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duart\\Desktop\\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\\Tutor\\TopTutor\\TopTutor.csproj": {
+    "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\\Tutor\\TopTutor\\TopTutor.csproj",
-        "projectName": "TopTutor",
-        "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\\Tutor\\TopTutor\\TopTutor.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj",
+        "projectName": "TopTutor.DataAcess",
+        "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\\Tutor\\TopTutor\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\TopTutor.Models.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\TopTutor.Models.csproj"
+              },
+              "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\TopTutor.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\TopTutor.Models.csproj",
+        "projectName": "TopTutor.Models",
+        "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\TopTutor.Models.csproj",
+        "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj",
+        "projectName": "TopTutor.Utility",
+        "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj",
+        "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,6 +187,74 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj",
+        "projectName": "TopTutor",
+        "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\TopTutor.csproj",
+        "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\Top-Tutor-e8cc1d68dfaee6ba33774c41bbb72f366b87edcf\\Tutor\\TopTutor.DataAccess\\TopTutor.DataAcess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TopTutor.Data;
+using TopTutor.DataAcess.Data;
 using TopTutor.Models;
 
 //Miguel Calha
@@ -36,6 +36,7 @@ namespace TopTutor.Controllers
             if (ModelState.IsValid) { 
             _db.Categories.Add(obj);
             _db.SaveChanges();
+                TempData["success"] = "Category Created Successfully";
             return RedirectToAction("Index");
             }
             return View();
@@ -62,6 +63,7 @@ namespace TopTutor.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category Edited Successfully";
                 return RedirectToAction("Index");
             }
             return View();
@@ -90,6 +92,7 @@ namespace TopTutor.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Category Deleted Successfully";
             return RedirectToAction("Index");
         }
     }
