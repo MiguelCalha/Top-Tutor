@@ -1,6 +1,0 @@
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.csproj.AssemblyReference.cache
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.AssemblyInfoInputs.cache
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.AssemblyInfo.cs
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.DataAccess\obj\Debug\net8.0\TopTutor.DataAccess.sourcelink.json

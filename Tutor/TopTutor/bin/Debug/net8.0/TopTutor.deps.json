@@ -10,8 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
-          "TopTutor.DataAcess": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.3"
         },
         "runtime": {
           "TopTutor.dll": {}
@@ -857,30 +856,6 @@
             "fileVersion": "6.0.21.52210"
           }
         }
-      },
-      "TopTutor.DataAcess/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "TopTutor.Models": "1.0.0",
-          "TopTutor.Utility": "1.0.0"
-        },
-        "runtime": {
-          "TopTutor.DataAcess.dll": {}
-        }
-      },
-      "TopTutor.Models/1.0.0": {
-        "dependencies": {
-          "TopTutor.Utility": "1.0.0"
-        },
-        "runtime": {
-          "TopTutor.Models.dll": {}
-        }
-      },
-      "TopTutor.Utility/1.0.0": {
-        "runtime": {
-          "TopTutor.Utility.dll": {}
-        }
       }
     }
   },
@@ -1421,21 +1396,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "TopTutor.DataAcess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TopTutor.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TopTutor.Utility/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

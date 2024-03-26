@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TopTutor.DataAcess.Data;
-using TopTutor.DataAcess.Repository.IRepository;
+using TopTutor.Data;
 using TopTutor.Models;
 
 //Miguel Calha
@@ -8,14 +7,14 @@ namespace TopTutor.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ICategoryRepository _categoryRepo;
-        public CategoryController(ICategoryRepository db)
+        private readonly ApplicationDbContext _db;
+        public CategoryController(ApplicationDbContext db)
         {
-            _categoryRepo = db;
+            _db = db;
         }
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _categoryRepo.GetAll().ToList();
+            List<Category> objCategoryList = _db.Categories.ToList();
             return View(objCategoryList);
         }
 
@@ -34,10 +33,9 @@ namespace TopTutor.Controllers
             {
                 ModelState.AddModelError("", "Test is an invalid Value.");
             }
-            if (ModelState.IsValid) {
-                _categoryRepo.Add(obj);
-                _categoryRepo.Save();
-                TempData["success"] = "Category Created Successfully";
+            if (ModelState.IsValid) { 
+            _db.Categories.Add(obj);
+            _db.SaveChanges();
             return RedirectToAction("Index");
             }
             return View();
@@ -49,7 +47,7 @@ namespace TopTutor.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
+            Category? categoryFromDb = _db.Categories.Find(id);
             if(categoryFromDb == null)
             {
                 return NotFound();
@@ -62,9 +60,8 @@ namespace TopTutor.Controllers
         
             if (ModelState.IsValid)
             {
-                _categoryRepo.Add(obj);
-                _categoryRepo.Save();
-                TempData["success"] = "Category Edited Successfully";
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View();
@@ -76,7 +73,7 @@ namespace TopTutor.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _categoryRepo.Get(u => u.Id == id);
+            Category? categoryFromDb = _db.Categories.Find(id);
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -86,14 +83,13 @@ namespace TopTutor.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePOST(int? id)
         {
-            Category obj = _categoryRepo.Get(u => u.Id == id);
+            Category obj = _db.Categories.Find(id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _categoryRepo.Remove(obj);
-            _categoryRepo.Save();
-            TempData["success"] = "Category Deleted Successfully";
+            _db.Categories.Remove(obj);
+            _db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

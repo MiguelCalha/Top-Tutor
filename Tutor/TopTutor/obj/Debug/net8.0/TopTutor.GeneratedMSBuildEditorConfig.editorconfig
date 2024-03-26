@@ -9,59 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TopTutor
 build_property.RootNamespace = TopTutor
-build_property.ProjectDir = C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\
+build_property.ProjectDir = C:\Users\duart\Desktop\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\Tutor\TopTutor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor
+build_property.MSBuildProjectDirectory = C:\Users\duart\Desktop\Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9\Tutor\TopTutor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Category/Create.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Category/Delete.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Category/Edit.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Category/Index.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Home/Index.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Home/Privacy.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Shared/Error.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Shared/_Notification.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/_ViewImports.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/_ViewStart.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/duart/Desktop/Top-Tutor/Tutor/TopTutor/Views/Shared/_Layout.cshtml]
+[C:/Users/duart/Desktop/Top-Tutor-8f0530ecc6c40d27dbfe287310e096e7587198f9/Tutor/TopTutor/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0ryq3qczfd
