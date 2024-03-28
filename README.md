@@ -65,5 +65,7 @@ update-database
 - Repository Patterm
 - Unit Of Work Pattern
 - Tiny MCE text editor
+- SweetAlert2
+- 
 
 TopTutor is committed to revolutionizing the tutoring experience, providing a user-friendly platform where tutors and students can seamlessly connect and collaborate. Join us today and embark on your journey towards academic success with TopTutor!
