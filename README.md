@@ -19,6 +19,8 @@ Add-Migration Initial
 ```sh
 update-database
 ```
+![Alt text](https://gcdnb.pbrd.co/images/pc0EYanWS8hq.png?o=1)
+
 
 ## Key Functionalities
 
@@ -61,6 +63,7 @@ update-database
 - MSSQL
 - Bootswatch
 - Repository Patterm
-- Unit Of Work Patten
+- Unit Of Work Pattern
+- Tiny MCE text editor
 
 TopTutor is committed to revolutionizing the tutoring experience, providing a user-friendly platform where tutors and students can seamlessly connect and collaborate. Join us today and embark on your journey towards academic success with TopTutor!
