@@ -19,7 +19,8 @@ Add-Migration Initial
 ```sh
 update-database
 ```
-![Alt text]([image_url](https://gcdnb.pbrd.co/images/pc0EYanWS8hq.png?o=1))
+![Alt text](https://upload.wikimedia.org/wikipedia/commons/c/c8/Log%C3%B3tipo_do_Politecnico_de_Setubal.png](https://gcdnb.pbrd.co/images/pc0EYanWS8hq.png?o=1))
+
 
 ## Key Functionalities
 
