@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\1.gif",
+      "PackagePath": "staticwebassets\\img\\1.gif"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\2.gif",
+      "PackagePath": "staticwebassets\\img\\2.gif"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\3.gif",
+      "PackagePath": "staticwebassets\\img\\3.gif"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client1.png",
+      "PackagePath": "staticwebassets\\img\\client1.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client2.png",
+      "PackagePath": "staticwebassets\\img\\client2.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client3.png",
+      "PackagePath": "staticwebassets\\img\\client3.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client4.png",
+      "PackagePath": "staticwebassets\\img\\client4.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client5.png",
+      "PackagePath": "staticwebassets\\img\\client5.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client6.png",
+      "PackagePath": "staticwebassets\\img\\client6.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client7.png",
+      "PackagePath": "staticwebassets\\img\\client7.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\client8.png",
+      "PackagePath": "staticwebassets\\img\\client8.png"
+    },
+    {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\light.png",
       "PackagePath": "staticwebassets\\img\\light.png"
     },
@@ -31,6 +75,10 @@
     {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\tutor2.png",
       "PackagePath": "staticwebassets\\img\\tutor2.png"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\tutor_intro.gif",
+      "PackagePath": "staticwebassets\\img\\tutor_intro.gif"
     },
     {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\site.js",

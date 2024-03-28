@@ -658,3 +658,6 @@ C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\refint\T
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\TopTutor.pdb
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\TopTutor.genruntimeconfig.cache
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\ref\TopTutor.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\obj\Debug\net8.0\TopTutor.MvcApplicationPartsAssemblyInfo.cs
