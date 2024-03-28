@@ -22,7 +22,22 @@ namespace TopTutor.DataAcess.Repository
 
         public void Update(Product obj)
         {
-            _db.Products.Update(obj);
+            var objFromDb = _db.Products.FirstOrDefault(u => u.Id == obj.Id);
+            if(objFromDb != null)
+            {
+
+                objFromDb.Title = obj.Title;
+                objFromDb.TutorName = obj.TutorName;
+                objFromDb.ListPrice = obj.ListPrice;
+                objFromDb.CategoryId = obj.CategoryId;
+                objFromDb.Description = obj.Description;
+
+                if (obj.ImageUrl != null)
+                {
+                    objFromDb.ImageUrl = obj.ImageUrl;
+                }
+
+            }
         }
     }
 }
