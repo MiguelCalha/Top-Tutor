@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\images\\product\\51b1d4e3-8267-4bfb-9eb8-3c6f4b4bc7e2.jpg"
     },
     {
-      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\6d0ac735-f35e-4bef-80d1-f7b0747c217c.jpg",
-      "PackagePath": "staticwebassets\\images\\product\\6d0ac735-f35e-4bef-80d1-f7b0747c217c.jpg"
-    },
-    {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\a79cd0d6-f23f-4cc6-bc15-7a5db205d6de.jpg",
       "PackagePath": "staticwebassets\\images\\product\\a79cd0d6-f23f-4cc6-bc15-7a5db205d6de.jpg"
     },
@@ -95,6 +91,10 @@
     {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\img\\tutor_intro.gif",
       "PackagePath": "staticwebassets\\img\\tutor_intro.gif"
+    },
+    {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\site.js",

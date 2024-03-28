@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7ik+IHdKxe0yb0j3N26mUjuvEAKH6z2RygBTGdnYa2M=",
+  "Hash": "HFNkqxGAMiHni0yhGlH59z7sNqDBjdK6VrGlzs5xHE4=",
   "Source": "TopTutor",
   "BasePath": "_content/TopTutor",
   "Mode": "Default",
@@ -110,25 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\51b1d4e3-8267-4bfb-9eb8-3c6f4b4bc7e2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\6d0ac735-f35e-4bef-80d1-f7b0747c217c.jpg",
-      "SourceId": "TopTutor",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\",
-      "BasePath": "_content/TopTutor",
-      "RelativePath": "images/product/6d0ac735-f35e-4bef-80d1-f7b0747c217c.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\6d0ac735-f35e-4bef-80d1-f7b0747c217c.jpg"
     },
     {
       "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\a79cd0d6-f23f-4cc6-bc15-7a5db205d6de.jpg",
@@ -490,6 +471,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\tutor2.png"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\product.js",
+      "SourceId": "TopTutor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\",
+      "BasePath": "_content/TopTutor",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\site.js",

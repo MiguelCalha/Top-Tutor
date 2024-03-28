@@ -3,7 +3,7 @@
     <div class="row pt-4 pb-3" >
         <div class="col-6">
             <h2 class="text-primary">
-                Product List
+                Tutor List
                 </h2>
         </div>
          <div class="col-6 text-end">
@@ -13,37 +13,20 @@
         </div>
 </div>
 
-<table class ="table table-bordered table-striped">
+<table id="tblData" class ="table table-bordered table-striped">
     <thead>
         <tr>
             <th>Title</th>
             <th>Description</th>
-            <th>Tutor Name</th>
-            <th>List Price</th>
+            <th>Tutor</th>
+            <th>Price</th>
             <th>Category</th>
         </tr</thead>
-<tbody>
-    @foreach(var obj in Model)
-    {
-    <tr>
-        <td>@obj.Title </td>
-        <td>@obj.Description</td>
-        <td>@obj.TutorName</td>
-        <td>@obj.ListPrice</td>
-         <td></td>
-        <td>
-            <div class="w-75 btn-group" role="group">
-                <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
-                                        <i class="bi bi-pencil-square"></i> Edit
-                </a>
-                 <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-delete mx-2">
-                                       <i class="bi bi-trash"></i> Delete
-                </a>
-            </div>
-        </td>
-    </tr>
-    }
-</tbody>
+
 </table>
 
 </div>
+
+@section Scripts {
+    <script src="~/js/product.js"></script>
+}
