@@ -61,9 +61,12 @@ update-database
 - Entity Framework
 - ASP .NET 8.0
 - MSSQL
-- Bootswatch
+- [Bootswatch](https://bootswatch.com/).
 - Repository Patterm
 - Unit Of Work Pattern
-- Tiny MCE text editor
+- [Tiny MCE Text Editor](https://www.tiny.cloud/).
+- [Data Tables](https://datatables.net/manual/data/).
+- [Sweet Alert 2](https://sweetalert2.github.io/#download).
+
 
 TopTutor is committed to revolutionizing the tutoring experience, providing a user-friendly platform where tutors and students can seamlessly connect and collaborate. Join us today and embark on your journey towards academic success with TopTutor!
