@@ -19,6 +19,7 @@ Add-Migration Initial
 ```sh
 update-database
 ```
+![Alt text]([image_url](https://gcdnb.pbrd.co/images/pc0EYanWS8hq.png?o=1))
 
 ## Key Functionalities
 
