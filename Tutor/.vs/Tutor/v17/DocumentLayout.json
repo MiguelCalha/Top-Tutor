@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\controllers\\availablecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\controllers\\availablecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\availablecourse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\availablecourse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\controllers\\availablecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\controllers\\availablecoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\availablecourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,11 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T20:21:58.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Repository\\RepositoryExtensions.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Repository\\RepositoryExtensions.cs",
@@ -82,12 +99,11 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Repository\\RepositoryExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:54:11.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:54:11.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Repository\\Repository.cs",
@@ -95,12 +111,11 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Repository\\Repository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAiwBMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:30:05.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:30:05.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Repository\\CourseRepository.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Repository\\CourseRepository.cs",
@@ -108,25 +123,24 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Repository\\CourseRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:11:26.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:11:26.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AvailableCourseController.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Controllers\\AvailableCourseController.cs",
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Controllers\\AvailableCourseController.cs",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Controllers\\AvailableCourseController.cs",
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Controllers\\AvailableCourseController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T16:25:15.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
@@ -134,8 +148,7 @@
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T17:43:02.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:43:02.211Z"
             },
             {
               "$type": "Document",
@@ -145,14 +158,14 @@
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Details.cshtml",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Details.cshtml",
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-29T17:19:31.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Data\\ApplicationDbContext.cs",
@@ -160,12 +173,11 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAcwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:02:16.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:02:16.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Models\\Course.cs",
               "RelativeDocumentMoniker": "TopTutor.Models\\Course.cs",
@@ -173,25 +185,23 @@
               "RelativeToolTip": "TopTutor.Models\\Course.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:59:58.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:59:58.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TopTutor.Utility",
+              "DocumentIndex": 13,
+              "Title": "TopTutor.Utility.csproj",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj",
               "RelativeDocumentMoniker": "TopTutor.Utility\\TopTutor.Utility.csproj",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Utility\\TopTutor.Utility.csproj",
               "RelativeToolTip": "TopTutor.Utility\\TopTutor.Utility.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-29T17:18:01.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:18:01.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Models\\Product.cs",
               "RelativeDocumentMoniker": "TopTutor.Models\\Product.cs",
@@ -199,12 +209,11 @@
               "RelativeToolTip": "TopTutor.Models\\Product.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:04:52.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T18:04:52.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Models\\Category.cs",
               "RelativeDocumentMoniker": "TopTutor.Models\\Category.cs",
@@ -212,12 +221,11 @@
               "RelativeToolTip": "TopTutor.Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:05:03.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T18:05:03.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Repository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Repository\\CategoryRepository.cs",
@@ -225,12 +233,11 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Repository\\CategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:10:23.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T18:10:23.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.DataAccess\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "TopTutor.DataAccess\\Repository\\ProductRepository.cs",
@@ -238,12 +245,11 @@
               "RelativeToolTip": "TopTutor.DataAccess\\Repository\\ProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T18:10:28.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T18:10:28.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CourseVM.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor.Models\\ViewModels\\CourseVM.cs",
               "RelativeDocumentMoniker": "TopTutor.Models\\ViewModels\\CourseVM.cs",
@@ -251,12 +257,11 @@
               "RelativeToolTip": "TopTutor.Models\\ViewModels\\CourseVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:18:15.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:18:15.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Admin\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Admin\\Controllers\\CourseController.cs",
@@ -264,8 +269,7 @@
               "RelativeToolTip": "TopTutor\\Areas\\Admin\\Controllers\\CourseController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T17:02:46.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T17:02:46.584Z"
             }
           ]
         }
