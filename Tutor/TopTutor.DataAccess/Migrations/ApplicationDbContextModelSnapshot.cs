@@ -62,6 +62,69 @@ namespace TopTutor.DataAcess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("TopTutor.Models.Course", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TutorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Courses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 2,
+                            Description = "Sample Text",
+                            ImageUrl = "",
+                            Title = "CS50",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 2,
+                            Description = "Sample Text",
+                            ImageUrl = "",
+                            Title = "CS50 Introduction to Game Development",
+                            TutorName = "Miguel Calha"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Description = "Sample Text",
+                            ImageUrl = "",
+                            Title = "Human Anatomy: Musculoskeletal Cases",
+                            TutorName = "Miguel Calha"
+                        });
+                });
+
             modelBuilder.Entity("TopTutor.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -169,6 +232,17 @@ namespace TopTutor.DataAcess.Migrations
                             Title = "Italian Tutoring",
                             TutorName = "Miguel Calha"
                         });
+                });
+
+            modelBuilder.Entity("TopTutor.Models.Course", b =>
+                {
+                    b.HasOne("TopTutor.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("TopTutor.Models.Product", b =>

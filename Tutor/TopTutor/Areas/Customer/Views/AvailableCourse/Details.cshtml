@@ -1,0 +1,39 @@
+﻿@model TopTutor.Models.Course
+
+<div class="row mt-4">
+    <div class="col-lg-6 offset-lg-3">
+        <div class="card shadow border-0">
+            <div class="card-header bg-primary bg-gradient text-light py-4">
+                <h3 class="text-uppercase text-center">@Model.Title</h3>
+                <p class="text-center text-light">Tutor: <strong>@Model.TutorName</strong></p>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="@Model.ImageUrl" class="img-fluid rounded mx-auto d-block" alt="Course Image">
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h5 class="text-uppercase">Description</h5>
+                        <p>@Model.Description</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h5 class="text-uppercase">Category</h5>
+                        <p>@Model.Category.Name</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <!-- Add more details here if needed -->
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer bg-light border-top">
+                <a asp-action="Index" class="btn btn-outline-primary bg-gradient fw-semibold">Back to Courses</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -10,6 +10,8 @@ namespace TopTutor.DataAcess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
+
+        ICourseRepository Course { get; }
         void Save();
     }
 }

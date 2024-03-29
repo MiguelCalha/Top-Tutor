@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TopTutor.DataAcess.Data;
 using TopTutor.DataAcess.Repository.IRepository;
+using TopTutor.Models;
 
 namespace TopTutor.DataAcess.Repository
 {
@@ -18,7 +19,14 @@ namespace TopTutor.DataAcess.Repository
         {
             _db = db;
             this.dbSet = _db.Set<T>();
-            _db.Products.Include(u => u.Category).Include(u => u.CategoryId);
+            if (typeof(T) == typeof(Product))
+            {
+                _db.Products.Include(u => u.Category);
+            }
+            else if (typeof(T) == typeof(Course))
+            {
+                _db.Courses.Include(i => i.Category);
+            }
         }
 
         public void Add(T entity)

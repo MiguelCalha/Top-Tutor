@@ -14,6 +14,8 @@ namespace TopTutor.DataAcess.Data
        public DbSet<Category> Categories { get; set; }
        public DbSet<Product> Products { get; set; }
 
+        public DbSet<Course> Courses { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
@@ -85,6 +87,37 @@ namespace TopTutor.DataAcess.Data
                     ListPrice = 10,
                     CategoryId = 2,
                      ImageUrl = ""
+                }
+                );
+
+            //Adidcionar cursos à DB
+            modelBuilder.Entity<Course>().HasData(
+                new Course
+                {
+                    Id = 1,
+                    Title = "CS50",
+                    Description = "Sample Text",
+                    TutorName = "Miguel Calha",
+                    CategoryId = 2,
+                    ImageUrl = ""
+                },
+                new Course
+                {
+                    Id = 2,
+                    Title = "CS50 Introduction to Game Development",
+                    Description = "Sample Text",
+                    TutorName = "Miguel Calha",
+                    CategoryId = 2,
+                    ImageUrl = ""
+                },
+                new Course
+                {
+                    Id = 3,
+                    Title = "Human Anatomy: Musculoskeletal Cases",
+                    Description = "Sample Text",
+                    TutorName = "Miguel Calha",
+                    CategoryId = 2,
+                    ImageUrl = ""
                 }
                 );
         }

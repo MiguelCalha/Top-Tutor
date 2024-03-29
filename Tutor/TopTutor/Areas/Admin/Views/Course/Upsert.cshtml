@@ -1,0 +1,84 @@
+﻿@model CourseVM
+
+<form method="post" class="row" enctype="multipart/form-data">
+    <input asp-for="Course.Id" hidden />
+    <input asp-for="Course.ImageUrl" hidden />
+    <div class="row">
+        <div class="col-10">
+            <div class="border p-3 mt-4">
+                <div class="row pb-2">
+                    <h2 class="text-bg-danger-primary"> @(Model.Course.Id != 0 ? "Update" : "Create") Course Ad</h2>
+                    <hr />
+                </div>
+                @*<div asp-validation-summary="ModelOnly"></div>*@
+                <div class="mb-3 row">
+                    <label asp-for="Course.Title" class="p-0"></label>
+                    <input asp-for="Course.Title" type="text" class="form-control" />
+
+                    <span asp-validation-for="Course.Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="Course.Description" class="p-0"></label>
+                    <textarea asp-for="Course.Description" type="text" class="form-control"> </textarea>
+
+
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="Course.TutorName" class="p-0"></label>
+                    <input asp-for="Course.TutorName" type="text" class="form-control" />
+
+                    <span asp-validation-for="Course.TutorName" class="text-danger"></span>
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="Course.CategoryId" lass="p-0"></label>
+                    <select asp-for="@Model.Course.CategoryId" asp-items="@Model.CategoryList" type="text" class="form-select">
+                        <option disabled selected value="">Select Category</option>
+                    </select>
+                    <span asp-validation-for="Course.CategoryId" class="text-danger"></span>
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="Course.ImageUrl" class="p-0"></label>
+                    <input asp-for="Course.ImageUrl" type="file" name="file" class="form-control" />
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        @if (Model.Course.Id != 0)
+                        {
+                            <button type="submit" class="btn btn-primary form-control">Update</button>
+
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary form-control">Create</button>
+                        }
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Course" asp-action="Index" class="btn btn-secondary border form-control">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="col-2" style="margin-top: 20px;">
+            <img src="@Model.Course.ImageUrl" width="100%" style="border-radius:5px; border:1px solid" />
+        </div>
+
+    </div>
+   
+</form>
+
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons  lists   table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough |  align lineheight | numlist bullist indent outdent',
+        });
+    </script>
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+}
+
