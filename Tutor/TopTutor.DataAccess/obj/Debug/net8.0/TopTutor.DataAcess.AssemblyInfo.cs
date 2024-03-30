@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TopTutor.DataAcess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3813e7f8b5635f7c9c5be5357310c019e0e0923b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0eb87b869eaead734b935e06715b7b65832d65f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TopTutor.DataAcess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TopTutor.DataAcess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

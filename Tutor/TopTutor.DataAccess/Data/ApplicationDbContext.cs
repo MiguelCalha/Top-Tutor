@@ -1,10 +1,12 @@
 ﻿using TopTutor.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 //Miguel Calha
 namespace TopTutor.DataAcess.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -18,6 +20,8 @@ namespace TopTutor.DataAcess.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Category>().HasData(
                                new Category { Id = 1, Name = "Matemática", DisplayOrder = 1 },
                                new Category { Id = 2, Name = "Programação", DisplayOrder = 2 },
