@@ -2996,6 +2996,7 @@
       "TopTutor.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "8.0.3",
           "TopTutor.Utility": "1.0.0"
         },
         "runtime": {
@@ -3003,6 +3004,9 @@
         }
       },
       "TopTutor.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.3"
+        },
         "runtime": {
           "TopTutor.Utility.dll": {}
         }

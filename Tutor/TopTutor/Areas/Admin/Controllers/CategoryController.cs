@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TopTutor.DataAcess.Data;
 using TopTutor.DataAcess.Repository.IRepository;
 using TopTutor.Models;
+using TopTutor.Utility;
 
 //Miguel Calha
 namespace TopTutor.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

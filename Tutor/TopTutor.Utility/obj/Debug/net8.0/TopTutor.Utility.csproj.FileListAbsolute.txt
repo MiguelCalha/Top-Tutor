@@ -33,3 +33,4 @@ C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor.Utility\obj\Debug\net8.0\
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor.Utility\obj\Debug\net8.0\refint\TopTutor.Utility.dll
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor.Utility\obj\Debug\net8.0\TopTutor.Utility.pdb
 C:\Users\duart\Desktop\backup\Top-Tutor\Tutor\TopTutor.Utility\obj\Debug\net8.0\ref\TopTutor.Utility.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor.Utility\obj\Debug\net8.0\TopTutor.Utility.csproj.AssemblyReference.cache
