@@ -1,9 +1,30 @@
 ﻿@model IEnumerable<Product>
+@{
+    List<string> categories = Model.Select(p => p.Category.Name).Distinct().ToList();
+}
 
 <div class="row pb-3">
+    <div class="col-lg-12">
+        <div class="form-group">
+            <br />
+            <h2>Select Category:</h2>
+            <div>
+                @foreach (var category in categories)
+                {
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input" id="@("category_" + category)" value="@category" onchange="filterProducts()" />
+                        <label class="form-check-label" for="@("category_" + category)">@category</label>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row pb-3" id="productList">
     @foreach (var product in Model)
     {
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6" data-category="@product.Category.Name">
             <div class="row p-2">
                 <div class="col-12 p-1">
                     <div class="card border-0 p-3 shadow  border-top border-5 rounded">
@@ -31,3 +52,29 @@
         </div>
     }
 </div>
+
+
+<script>
+    function filterProducts() {
+        var selectedCategories = [];
+        var checkboxes = document.querySelectorAll('input[type=checkbox]:checked');
+
+        checkboxes.forEach(function (checkbox) {
+            selectedCategories.push(checkbox.value);
+        });
+
+        var productList = document.getElementById("productList");
+        var products = productList.getElementsByClassName("col-lg-3");
+
+        for (var i = 0; i < products.length; i++) {
+            var product = products[i];
+            var productCategory = product.getAttribute("data-category");
+
+            if (selectedCategories.length === 0 || selectedCategories.includes(productCategory)) {
+                product.style.display = "";
+            } else {
+                product.style.display = "none";
+            }
+        }
+    }
+</script>

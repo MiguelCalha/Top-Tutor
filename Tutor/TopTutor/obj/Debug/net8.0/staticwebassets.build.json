@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6PdPYPuzIevXxUmkE58AasKUN1JXaegzW447uga9cAg=",
+  "Hash": "2o4rPce9GUS8X8znMfOTqAukAxRSOYxGA50ehFkLaYY=",
   "Source": "TopTutor",
   "BasePath": "_content/TopTutor",
   "Mode": "Default",
@@ -1459,6 +1459,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\a79cd0d6-f23f-4cc6-bc15-7a5db205d6de.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\e787a10f-e472-44de-bfbd-b74b7a24c67b.png",
+      "SourceId": "TopTutor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\",
+      "BasePath": "_content/TopTutor",
+      "RelativePath": "images/product/e787a10f-e472-44de-bfbd-b74b7a24c67b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\e787a10f-e472-44de-bfbd-b74b7a24c67b.png"
     },
     {
       "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\images\\product\\fb4f9ae5-7ad5-4e7e-9b72-19639c9859ad.jpg",

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\tutor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\tutor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +22,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeToolTip": "TopTutor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T00:12:34.71Z",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
+              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
+              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAjwCUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T14:14:08.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAAALIAAAAbAAAA",
+              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
+              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
+              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-30T23:54:00.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TopTutor\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-30T22:02:47.668Z",
+              "WhenOpened": "2024-04-01T14:13:07.138Z",
               "EditorCaption": ""
             }
           ]
