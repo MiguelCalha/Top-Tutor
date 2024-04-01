@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\tutor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\tutor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\tutor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\availablecourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\availablecourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
-              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Details.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAjwCUAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T14:14:08.739Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Tutor\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-01T14:13:07.138Z",
+              "WhenOpened": "2024-04-01T14:31:09.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
+              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
+              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
+              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\AvailableCourse\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T14:25:50.539Z",
               "EditorCaption": ""
             }
           ]
