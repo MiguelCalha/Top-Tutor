@@ -1,0 +1,95 @@
+﻿@model ShoppingCartVM
+
+<form method="post">
+    <br />
+    <div class="container">
+        <div class="card shadow border-0">
+
+            <div class="card-header bg-secondary bg-gradient text-black ml-0 py-4">
+                <div class="row px-4">
+                    <div class="col-6">
+                        
+                        <h4 class="d-flex justify-content-between align-items-center mb-3 text-info">
+                            <span class="text-black">Order Summary:</span>
+                        </h4>
+                    </div>
+                    <div class="col-6 text-end">
+                        <a asp-action="Index" class="btn btn-outline-danger btn-sm">Back to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container rounded p-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pb-4">
+                            <div class="row">
+                     
+                            </div>
+                            <div class="row my-1 align-items-center">
+                                <div class="col-3">
+                                    <label for="studentName" class="form-label text-black">Student Name</label>
+                                </div>
+                                <div class="col-9">
+                                    <input id="studentName" class="form-control" />
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row my-1 align-items-center">
+                                <div class="col-3">
+                                    <label for="email" class="form-label text-black">E-Mail</label>
+                                </div>
+                                <div class="col-9">
+                                    <input id="email" class="form-control" />
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row my-1 align-items-center">
+                                <div class="col-3">
+                                    <label for="phone" class="form-label text-black">Phone Number</label>
+                                </div>
+                                <div class="col-9">
+                                    <input id="phone" class="form-control" />
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row my-1 align-items-center">
+                                <div class="col-3">
+                                    <label for="platform" class="form-label text-black">Platform</label>
+                                </div>
+                                <div class="col-9">
+                                    <select id="platform" class="form-select">
+                                        <option value="zoom">Zoom</option>
+                                        <option value="google_meets">Google Meets</option>
+                                        <option value="teams">Teams</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-1 align-items-center">
+                                <div class="col-3">
+                                    <label for="lessonDate" class="form-label text-black">Preferred Lesson Date</label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="date" id="lessonDate" class="form-control" />
+                                    <span class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-12 col-md-8 pt-2">
+                        <p style="color:#007bff; font-size:14px;">
+                            If you ordered more than one tutoring session, your designed tutor will schedule the rest of the lessons.
+                            
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <button type="submit" value="Place Order" class="btn btn-primary form-control">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -19,6 +19,8 @@ namespace TopTutor.DataAcess.Data
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
         public DbSet<Course> Courses { get; set; }
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

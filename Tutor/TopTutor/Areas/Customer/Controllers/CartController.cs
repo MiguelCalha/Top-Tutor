@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using TopTutor.DataAcess.Repository.IRepository;
+using TopTutor.Models;
 using TopTutor.Models.ViewModels;
 
 namespace TopTutor.Areas.Customer.Controllers
@@ -24,18 +25,23 @@ namespace TopTutor.Areas.Customer.Controllers
 
             ShoppingCartVM = new()
             {
-                ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId, includeProperties: "Product")
-            };
+                ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId, 
+                includeProperties: "Product"),
+                OrderHeader = new()
+        };
 
             foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
                 cart.Price = cart.Product.ListPrice;
-                ShoppingCartVM.OrderTotal += cart.Price * cart.Count;
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
             }
             return View(ShoppingCartVM);
         }
 
-
+        public IActionResult Summary()
+        {
+            return View();
+        }
         public IActionResult Plus(int cartId)
         {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
