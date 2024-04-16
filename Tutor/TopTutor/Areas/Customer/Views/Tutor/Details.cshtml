@@ -51,7 +51,7 @@
                     <div class="text-center mt-4">
                         <!-- Dropdown menu for selecting tutoring hours -->
                         <label for="tutoring-hours">How many hours would you like?</label>
-                        <input asp-for="Count"  type="number" id="tutoring-hours" name="tutoring-hours" class="form-control" min="1" required>
+                        <input asp-for="Count"  type="number" value="1" class="form-control" min="1" required>
 
                         <br />
                         <!-- Display total price based on selected hours -->
@@ -68,13 +68,3 @@
         </div>
     </section><!-- End Portfolio Details Section -->
 </form>
-
-<script>
-    // Function to calculate total price based on selected hours
-    document.getElementById('tutoring-hours').addEventListener('change', function() {
-        var selectedHours = parseInt(this.value);
-        var pricePerHour = parseFloat("@Model.Product.ListPrice");
-        var totalPrice = selectedHours * pricePerHour;
-        document.getElementById('total-price').textContent = totalPrice.toLocaleString('en-US', { style: 'currency', currency: 'EUR' });
-    });
-</script>
