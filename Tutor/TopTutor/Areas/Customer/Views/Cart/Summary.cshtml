@@ -1,95 +1,121 @@
-﻿@model ShoppingCartVM
+﻿﻿
+@model ShoppingCartVM
+
 
 <form method="post">
-    <br />
-    <div class="container">
-        <div class="card shadow border-0">
+	<br />
+	<div class="container">
+		<div class="card shadow border-0">
 
-            <div class="card-header bg-secondary bg-gradient text-black ml-0 py-4">
-                <div class="row px-4">
-                    <div class="col-6">
-                        
-                        <h4 class="d-flex justify-content-between align-items-center mb-3 text-info">
-                            <span class="text-black">Order Summary:</span>
-                        </h4>
-                    </div>
-                    <div class="col-6 text-end">
-                        <a asp-action="Index" class="btn btn-outline-danger btn-sm">Back to Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="container rounded p-2">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 pb-4">
-                            <div class="row">
-                     
-                            </div>
-                            <div class="row my-1 align-items-center">
-                                <div class="col-3">
-                                    <label for="studentName" class="form-label text-black">Student Name</label>
-                                </div>
-                                <div class="col-9">
-                                    <input id="studentName" class="form-control" />
-                                    <span class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="row my-1 align-items-center">
-                                <div class="col-3">
-                                    <label for="email" class="form-label text-black">E-Mail</label>
-                                </div>
-                                <div class="col-9">
-                                    <input id="email" class="form-control" />
-                                    <span class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="row my-1 align-items-center">
-                                <div class="col-3">
-                                    <label for="phone" class="form-label text-black">Phone Number</label>
-                                </div>
-                                <div class="col-9">
-                                    <input id="phone" class="form-control" />
-                                    <span class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="row my-1 align-items-center">
-                                <div class="col-3">
-                                    <label for="platform" class="form-label text-black">Platform</label>
-                                </div>
-                                <div class="col-9">
-                                    <select id="platform" class="form-select">
-                                        <option value="zoom">Zoom</option>
-                                        <option value="google_meets">Google Meets</option>
-                                        <option value="teams">Teams</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row my-1 align-items-center">
-                                <div class="col-3">
-                                    <label for="lessonDate" class="form-label text-black">Preferred Lesson Date</label>
-                                </div>
-                                <div class="col-9">
-                                    <input type="date" id="lessonDate" class="form-control" />
-                                    <span class="text-danger"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-footer">
-                <div class="row">
-                    <div class="col-12 col-md-8 pt-2">
-                        <p style="color:#007bff; font-size:14px;">
-                            If you ordered more than one tutoring session, your designed tutor will schedule the rest of the lessons.
-                            
-                        </p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <button type="submit" value="Place Order" class="btn btn-primary form-control">Place Order</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+			<div class="card-header bg-secondary bg-gradient text-light ml-0 py-4">
+				<div class="row px-4">
+					<div class="col-6">
+						<h5 class="pt-2 text-white">
+							Order Summary
+						</h5>
+					</div>
+					<div class="col-6 text-end">
+						<a asp-action="Index" class="btn btn-outline-danger btn-sm">Back to Cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="container rounded p-2">
+					<div class="row">
+						<div class="col-12 col-lg-6 pb-4">
+							<div class="row">
+								<h4 class="d-flex justify-content-between align-items-center mb-3">
+									<span class="text-black">Shipping Details:</span>
+								</h4>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Name</label>
+								</div>
+								<div class="col-9">
+									<input asp-for="OrderHeader.StudentName" class="form-control" />
+									<span asp-validation-for="OrderHeader.StudentName" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Phone</label>
+								</div>
+								<div class="col-9">
+									<input asp-for="OrderHeader.PhoneNumber" class="form-control" />
+									<span asp-validation-for="OrderHeader.PhoneNumber" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>E-mail</label>
+								</div>
+								<div class="col-9">
+									<input asp-for="OrderHeader.StudentEmail" class="form-control" />
+									<span asp-validation-for="OrderHeader.StudentEmail" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Preferred Tutoring Platform</label>
+								</div>
+								<div class="col-9">
+									<select asp-for="OrderHeader.Platform" class="form-select">
+										<option value="Zoom">Zoom</option>
+										<option value="Google Meets">Google Meets</option>
+										<option value="Teams">Teams</option>
+									</select>
+									<span asp-validation-for="OrderHeader.Platform" class="text-danger"></span>
+								</div>
+							</div>
+
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Prefered First Lesson Date</label>
+								</div>
+								<div class="col-9">
+									<input asp-for="OrderHeader.LessonDate" class="form-control" />
+									<span asp-validation-for="OrderHeader.LessonDate" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-5 offset-lg-1">
+							<h4 class="d-flex justify-content-between align-items-center mb-3">
+								<span class="text-black">Order Summary:</span>
+							</h4>
+							<ul class="list-group mb-3">
+								@foreach (var details in Model.ShoppingCartList)
+								{
+									<li class="list-group-item d-flex justify-content-between">
+										<div>
+											<h6 class="my-0">@details.Product.Title</h6>
+											<small class="text-muted">Quantity: @details.Count</small>
+										</div>
+										<span class="text-muted">@((details.Price * details.Count).ToString("c")) </span>
+									</li>
+								}
+
+								<li class="list-group-item d-flex justify-content-between bg-light">
+									<small class="text-black">Total (EUR)</small>
+									<strong class="text-black">@Model.OrderHeader.OrderTotal.ToString("c")</strong>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-footer">
+				<div class="row">
+					<div class="col-12 col-md-8 pt-2">
+						<p style="color:deepskyblue; font-size:14px;">
+							If you ordered more than one tutoring session, your tutor will schedule the rest of the sessions with you.
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<button type="submit" value="Place Order" class="btn btn-primary form-control">Place Order</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </form>

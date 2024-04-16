@@ -40,8 +40,31 @@ namespace TopTutor.Areas.Customer.Controllers
 
         public IActionResult Summary()
         {
-            return View();
-        }
+			var claimsIdentity = (ClaimsIdentity)User.Identity;
+			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+			ShoppingCartVM viewModel = new ShoppingCartVM
+			{
+				ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
+					includeProperties: "Product"),
+				OrderHeader = new OrderHeader()
+			};
+
+			viewModel.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+
+			viewModel.OrderHeader.StudentName = viewModel.OrderHeader.ApplicationUser.Name;
+			viewModel.OrderHeader.PhoneNumber = viewModel.OrderHeader.ApplicationUser.PhoneNumber;
+			viewModel.OrderHeader.StudentEmail = viewModel.OrderHeader.ApplicationUser.Email;
+			viewModel.OrderHeader.Platform = viewModel.OrderHeader.ApplicationUser.City;
+
+			foreach (var cart in viewModel.ShoppingCartList)
+			{
+				cart.Price = cart.Product.ListPrice;
+				viewModel.OrderHeader.OrderTotal += cart.Price * cart.Count;
+			}
+
+			return View(viewModel);
+		}
         public IActionResult Plus(int cartId)
         {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
