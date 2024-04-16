@@ -12,6 +12,7 @@ namespace TopTutor.DataAcess.Repository.IRepository
         IProductRepository Product { get; }
 
         ICourseRepository Course { get; }
+        IShoppingCartRepository ShoppingCart { get; }
         void Save();
     }
 }

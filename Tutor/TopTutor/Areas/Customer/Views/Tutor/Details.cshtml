@@ -1,5 +1,8 @@
-﻿@model Product
+﻿@model ShoppingCart
+
 <form method="post">
+    <input hidden asp-for="ProductId"/>
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
@@ -23,7 +26,7 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="@Model.ImageUrl" alt="">
+                                <img src="@Model.Product.ImageUrl" alt="">
                             </div>
 
                         </div>
@@ -33,19 +36,26 @@
 
                 <div class="col-lg-4">
                     <div class="portfolio-info">
-                        <h3>@Model.Title</h3>
+                        <h3>@Model.Product.Title</h3>
                         <ul>
-                            <li><strong>Category</strong>: @Model.Category.Name</li>
-                            <li><strong>Price per hour</strong>@Model.ListPrice.ToString("c")</li>
+                            <li><strong>Category</strong>: @Model.Product.Category.Name</li>
+                            <li><strong>Price per hour</strong>: @Model.Product.ListPrice.ToString("c")</li>
                         </ul>
                     </div>
                     <div class="portfolio-description">
                         <h2>Details</h2>
                         <p>
-                            @Html.Raw(Model.Description)
+                            @Html.Raw(Model.Product.Description)
                         </p>
                     </div>
                     <div class="text-center mt-4">
+                        <!-- Dropdown menu for selecting tutoring hours -->
+                        <label for="tutoring-hours">How many hours would you like?</label>
+                        <input asp-for="Count"  type="number" id="tutoring-hours" name="tutoring-hours" class="form-control" min="1" required>
+
+                        <br />
+                        <!-- Display total price based on selected hours -->
+                        <p>Total Price: <span id="total-price">@Model.Product.ListPrice.ToString("c")</span></p>
                         <!-- Button to add to cart -->
                         <button type="submit" class="btn btn-primary btn-lg text-uppercase" style="background-color: deepskyblue; color: white;">
                             Add to Cart
@@ -58,3 +68,13 @@
         </div>
     </section><!-- End Portfolio Details Section -->
 </form>
+
+<script>
+    // Function to calculate total price based on selected hours
+    document.getElementById('tutoring-hours').addEventListener('change', function() {
+        var selectedHours = parseInt(this.value);
+        var pricePerHour = parseFloat("@Model.Product.ListPrice");
+        var totalPrice = selectedHours * pricePerHour;
+        document.getElementById('total-price').textContent = totalPrice.toLocaleString('en-US', { style: 'currency', currency: 'EUR' });
+    });
+</script>
