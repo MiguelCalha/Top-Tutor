@@ -4,6 +4,7 @@ using System.Security.Claims;
 using TopTutor.DataAcess.Repository.IRepository;
 using TopTutor.Models;
 using TopTutor.Models.ViewModels;
+using TopTutor.Utility;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
@@ -12,6 +13,7 @@ namespace TopTutor.Areas.Customer.Controllers
     public class CartController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
         public CartController(IUnitOfWork unitOfWork)
         {
@@ -43,29 +45,90 @@ namespace TopTutor.Areas.Customer.Controllers
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
-			ShoppingCartVM viewModel = new ShoppingCartVM
+			ShoppingCartVM = new()
 			{
 				ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
-					includeProperties: "Product"),
-				OrderHeader = new OrderHeader()
+				includeProperties: "Product"),
+				OrderHeader = new()
 			};
 
-			viewModel.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+			ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
 
-			viewModel.OrderHeader.StudentName = viewModel.OrderHeader.ApplicationUser.Name;
-			viewModel.OrderHeader.PhoneNumber = viewModel.OrderHeader.ApplicationUser.PhoneNumber;
-			viewModel.OrderHeader.StudentEmail = viewModel.OrderHeader.ApplicationUser.Email;
-			viewModel.OrderHeader.Platform = viewModel.OrderHeader.ApplicationUser.City;
+			ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name;
+			ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber;
+			ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.ApplicationUser.StreetAddress;
+			ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.ApplicationUser.City;
+			ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.ApplicationUser.State;
+			ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.ApplicationUser.PostalCode;
 
-			foreach (var cart in viewModel.ShoppingCartList)
+
+
+			foreach (var cart in ShoppingCartVM.ShoppingCartList)
 			{
 				cart.Price = cart.Product.ListPrice;
-				viewModel.OrderHeader.OrderTotal += cart.Price * cart.Count;
+				ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
+			}
+			return View(ShoppingCartVM);
+		}
+
+		[HttpPost]
+		[ActionName("Summary")]
+		public IActionResult SummaryPOST(ShoppingCartVM viewModel)
+		{
+			var claimsIdentity = (ClaimsIdentity)User.Identity;
+			var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+			ShoppingCartVM.ShoppingCartList = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
+				includeProperties: "Product");
+
+			ShoppingCartVM.OrderHeader.OrderDate = System.DateTime.Now;
+			ShoppingCartVM.OrderHeader.ApplicationUserId = userId;
+
+			ApplicationUser applicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+
+
+			foreach (var cart in ShoppingCartVM.ShoppingCartList)
+			{
+				cart.Price = cart.Product.ListPrice;
+				ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
 			}
 
-			return View(viewModel);
+
+				//it is a regular customer 
+				ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
+				ShoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
+
+			
+			_unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
+			_unitOfWork.Save();
+			foreach (var cart in ShoppingCartVM.ShoppingCartList)
+			{
+				OrderDetail orderDetail = new()
+				{
+					ProductId = cart.ProductId,
+					OrderHeaderId = ShoppingCartVM.OrderHeader.Id,
+					Price = cart.Price,
+					Count = cart.Count
+				};
+				_unitOfWork.OrderDetail.Add(orderDetail);
+				_unitOfWork.Save();
+			}
+
+			//if its a regular customer capture payment with stripe
+
+			return RedirectToAction(nameof(OrderConfirmation), new {id=ShoppingCartVM.OrderHeader.Id});
+
+			
 		}
-        public IActionResult Plus(int cartId)
+
+
+
+
+		public IActionResult OrderConfirmation(int id)
+		{
+			return View(id);
+		}
+		public IActionResult Plus(int cartId)
         {
             var cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
             cartFromDb.Count += 1;
