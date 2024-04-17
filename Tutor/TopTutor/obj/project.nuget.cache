@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aJk3IZj+Wbp6ongdjcPBv0THna+50g480jmJuP8XoLHNgSMnZo/XRhL33R8OUgnJtfP3d/m5bEkhsSEBmu7fKw==",
+  "dgSpecHash": "y3ltPFexD6+0g4NuSC16NUTiYnyDXAW3e/QqoTzsyfKL8AR+iSBkTrpxLxjxB9CCpF2pCWZtTR7Nzjvxqb+laQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\TopTutor.csproj",
   "expectedPackageFiles": [
@@ -190,6 +190,7 @@
     "C:\\Users\\duart\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\stripe.net\\44.2.0\\stripe.net.44.2.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",

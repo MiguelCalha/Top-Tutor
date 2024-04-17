@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|c:\\users\\duart\\desktop\\top-tutor\\tutor\\toptutor\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A72F4676-6915-44A1-BEF1-EECD2D554886}|TopTutor\\TopTutor.csproj|solutionrelative:toptutor\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T11:35:42.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T10:01:49.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHcAAAAAAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAqwJsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T21:21:51.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Summary.cshtml",
-              "DocumentMoniker": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeDocumentMoniker": "TopTutor\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ViewState": "AQIAAFMAAAAAAAAAAADwv2YAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T21:46:19.307Z",
+              "WhenOpened": "2024-04-17T15:36:39.393Z",
               "EditorCaption": ""
             }
           ]
