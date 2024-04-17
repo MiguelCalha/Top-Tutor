@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\js\\course.js"
     },
     {
+      "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

@@ -1,0 +1,73 @@
+﻿
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java OOP Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Java Object-Oriented Programming Quiz</h1>
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <form id="quizForm">
+                    <div class="form-group">
+                        <label for="question1">1. What does OOP stand for?</label>
+                        <select class="form-control" id="question1" name="question1">
+                            <option value="">Select an option</option>
+                            <option value="a">Object-Oriented Programming</option>
+                            <option value="b">Object-Oriented Protocol</option>
+                            <option value="c">Object-Oriented Process</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question2">2. Which keyword is used to define a class in Java?</label>
+                        <select class="form-control" id="question2" name="question2">
+                            <option value="">Select an option</option>
+                            <option value="a">method</option>
+                            <option value="b">class</option>
+                            <option value="c">object</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question3">3. Which of the following is NOT a principle of OOP?</label>
+                        <select class="form-control" id="question3" name="question3">
+                            <option value="">Select an option</option>
+                            <option value="a">Inheritance</option>
+                            <option value="b">Encapsulation</option>
+                            <option value="c">Iteration</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Quiz</button>
+                </form>
+                <div id="quizResult" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Quiz submission handling
+        $(document).ready(function () {
+            $('#quizForm').submit(function (event) {
+                event.preventDefault();
+                var formData = $(this).serializeArray();
+                var correctAnswers = ['a', 'b', 'c'];
+                var score = 0;
+                for (var i = 0; i < formData.length; i++) {
+                    if (correctAnswers.includes(formData[i].value)) {
+                        score++;
+                    }
+                }
+                var resultMessage = "You scored " + score + " out of " + correctAnswers.length;
+                $('#quizResult').text(resultMessage);
+            });
+        });
+    </script>
+</body>
+</html>

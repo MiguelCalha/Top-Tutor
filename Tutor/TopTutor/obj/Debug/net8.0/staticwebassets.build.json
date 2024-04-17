@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2o4rPce9GUS8X8znMfOTqAukAxRSOYxGA50ehFkLaYY=",
+  "Hash": "KQyFRIoxPM+QAnsjK7GxMqLin5rX3iT4CtfPvm73YrY=",
   "Source": "TopTutor",
   "BasePath": "_content/TopTutor",
   "Mode": "Default",
@@ -1839,6 +1839,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\course.js"
+    },
+    {
+      "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\order.js",
+      "SourceId": "TopTutor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\",
+      "BasePath": "_content/TopTutor",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\wwwroot\\js\\product.js",

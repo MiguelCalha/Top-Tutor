@@ -72,11 +72,12 @@
 
             <div class="mb-3">
                 <label for="inputRole" class="form-label">Role</label>
-                <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
+                <select asp-for="Input.Role" asp-items="@Model.Input.RoleList.Where(r => r.Text != "Admin" && r.Text != "Customer")" class="form-select">
                     <option disable selected>Select Role</option>
                 </select>
                 <span asp-validation-for="Input.Role" class="text-danger"></span>
             </div>
+
 
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
