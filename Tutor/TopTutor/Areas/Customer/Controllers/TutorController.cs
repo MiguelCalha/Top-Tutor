@@ -5,6 +5,7 @@ using System.Security.Claims;
 using TopTutor.DataAcess.Repository;
 using TopTutor.DataAcess.Repository.IRepository;
 using TopTutor.Models;
+using TopTutor.Utility;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
@@ -54,14 +55,18 @@ namespace TopTutor.Areas.Customer.Controllers
                 //ShoppingCart exists
                 cartFromDb.Count += shoppingCart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
-            } else
+                _unitOfWork.Save();
+            }
+            else
             {
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
 
             }
+            TempData["success"] = "Cart Updated Successfully";
 
-
-            _unitOfWork.Save();
 
             return RedirectToAction(nameof(Index));
         }
