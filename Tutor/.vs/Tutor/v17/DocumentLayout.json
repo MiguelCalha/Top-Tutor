@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "TopTutor\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TopTutor\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEsAAAAdAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAIwF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-18T13:14:06.78Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T13:13:17.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T13:13:17.344Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "TopTutor\\Areas\\Customer\\Controllers\\TutorController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAwwEAAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T13:01:34.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T13:01:34.38Z"
             }
           ]
         }
