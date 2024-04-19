@@ -695,3 +695,6 @@ C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\runtimes\win-ar
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\duart\Desktop\Top-Tutor\Tutor\TopTutor\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll

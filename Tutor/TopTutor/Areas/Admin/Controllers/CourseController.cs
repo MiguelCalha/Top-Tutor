@@ -12,6 +12,11 @@ using TopTutor.Utility;
 //Miguel Calha
 namespace TopTutor.Areas.Admin.Controllers
 {
+    // Author: Miguel Calha
+    // This controller handles the CRUD operations related to the Courses. It allows the Admin to create, update,
+    // delete and view the courses.
+    // The Admin can also view the list of courses and the details of a specific course.
+
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]
 

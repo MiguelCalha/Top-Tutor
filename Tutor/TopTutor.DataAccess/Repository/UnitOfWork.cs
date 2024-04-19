@@ -9,6 +9,14 @@ using TopTutor.Models;
 
 namespace TopTutor.DataAcess.Repository
 {
+    //Author: Miguel Calha
+    //This class is responsible for managing the repositories
+    //It implements the IUnitOfWork interface
+    //It has a private ApplicationDbContext object
+    //It has a public property for each repository
+    //It has a constructor that receives an ApplicationDbContext object
+    //It has a Save method that calls the SaveChanges method of the ApplicationDbContext object
+
     public class UnitOfWork : IUnitOfWork
     {
         private ApplicationDbContext _db;

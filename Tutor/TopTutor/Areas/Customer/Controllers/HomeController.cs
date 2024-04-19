@@ -4,6 +4,8 @@ using TopTutor.Models;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
+    // Author: Miguel Calha
+    // This controller handles the actions related to the Home page for Customers.
     [Area("Customer")]
     public class HomeController : Controller
     {

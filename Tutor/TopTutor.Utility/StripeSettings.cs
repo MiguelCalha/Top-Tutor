@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TopTutor.Utility
 {
+    //Author: João Dâmaso
+    //Purpose: This class is used to store all the constants that are used in the application
+
     public class StripeSettings
     {
         public string SecretKey { get; set; }

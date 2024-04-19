@@ -10,6 +10,13 @@ using TopTutor.Models;
 
 namespace TopTutor.DataAcess.Repository
 {
+    //Author: João Dâmaso
+    //This class is responsible for managing the Product repository
+    //It extends the Repository class and implements the IProductRepository interface
+    //It has a private ApplicationDbContext object
+    //It has a constructor that receives an ApplicationDbContext object
+    //It has an Update method that receives a Product object and updates it
+
     public class ProductRepository : Repository<Product>, IProductRepository
     {
         private ApplicationDbContext _db;

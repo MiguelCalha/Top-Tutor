@@ -12,6 +12,10 @@ using TopTutor.Models.ViewModels;
 
 namespace TopTutor.Areas.Admin.Controllers
 {
+    // Author: Miguel Calha
+    // This Controller handles the CRUD operations related to the Orders. It allows the Admin to view the list of orders, the details of a specific order, update the order details, start processing the order, ship the order and cancel the order.
+    // The Admin can also view the list of orders based on their status.
+
     [Area("admin")]
     [Authorize]
     public class OrderController : Controller

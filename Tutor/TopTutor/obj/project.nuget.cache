@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y3ltPFexD6+0g4NuSC16NUTiYnyDXAW3e/QqoTzsyfKL8AR+iSBkTrpxLxjxB9CCpF2pCWZtTR7Nzjvxqb+laQ==",
+  "dgSpecHash": "z9tNvR0yIbo2m+WzjD4nZbc0MStE+6D7jLfi8g5Hd5pGu+LtrFNRMN8Hvfur27ZeQcT5zYkVW6gCpYfcseJVLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\duart\\Desktop\\Top-Tutor\\Tutor\\TopTutor\\TopTutor.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,9 @@
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\8.0.4\\microsoft.aspnetcore.authentication.facebook.8.0.4.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.4\\microsoft.aspnetcore.authentication.google.8.0.4.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authentication.microsoftaccount\\8.0.4\\microsoft.aspnetcore.authentication.microsoftaccount.8.0.4.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\duart\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.3\\microsoft.aspnetcore.cryptography.internal.8.0.3.nupkg.sha512",

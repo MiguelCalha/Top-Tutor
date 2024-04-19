@@ -8,6 +8,10 @@ using TopTutor.Models;
 
 namespace TopTutor.DataAcess.Repository
 {
+    //Author: João Dâmaso
+    //This class is responsible for managing the repositories
+    //It has a public static method that receives a query and returns a query with the related entities included
+
     public static class RepositoryExtensions
     {
         public static IQueryable<T> IncludeRelatedEntities<T>(this IQueryable<T> query) where T : class

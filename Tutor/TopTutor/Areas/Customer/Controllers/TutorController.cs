@@ -9,6 +9,13 @@ using TopTutor.Utility;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
+    // Author: Miguel Calha
+    // This controller handles the actions related to the Tutor ads cart for customers.
+    // The customer can view the Tutor ads cart, add products to the Tutor ads cart, remove products from the Tutor ads cart,
+    // increase the quantity of a product in the Tutor ads cart, decrease the quantity of a product in the Tutor ads cart,
+    // view the summary of the order and confirm the order.
+    // The customer can also view the order confirmation.
+
     [Area("Customer")]
     public class TutorController : Controller
     {

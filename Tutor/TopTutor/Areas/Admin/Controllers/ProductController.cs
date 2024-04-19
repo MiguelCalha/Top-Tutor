@@ -9,7 +9,10 @@ using TopTutor.Models;
 using TopTutor.Models.ViewModels;
 using TopTutor.Utility;
 
-//Miguel Calha
+// Author: Miguel Calha
+// This controller handles the CRUD operations related to the Products. It allows the Admin to create, update, delete and view the products.
+// The Admin can also view the list of products and the details of a specific product.
+
 namespace TopTutor.Areas.Admin.Controllers
 {
     [Area("Admin")]

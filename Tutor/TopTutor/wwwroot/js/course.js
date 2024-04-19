@@ -1,3 +1,9 @@
+/**
+ * Author: Miguel Calha
+ * This code initializes a DataTable using jQuery DataTables plugin to display course data fetched from an AJAX endpoint.
+ * It includes functionality to edit and delete courses.
+ * Additionally, it uses Swal (SweetAlert) for confirmation when deleting a course and toastr for displaying success messages.
+ */
 var dataTable;
 $(document).ready(function () {
     loadDataTable();

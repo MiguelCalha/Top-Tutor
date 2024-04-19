@@ -1,3 +1,9 @@
+/**
+ * Author: Miguel Calha
+ * This code initializes a DataTable using jQuery DataTables plugin to display order data fetched from an AJAX endpoint based on different statuses.
+ * The status parameter determines which orders to load: "inprocess", "completed", "pending", "approved", or "all".
+ * It dynamically loads the DataTable based on the status specified in the URL query parameters.
+ */
 var dataTable;
 
 $(document).ready(function () {

@@ -11,6 +11,18 @@ using TopTutor.Models;
 
 namespace TopTutor.DataAcess.Repository
 {
+    //Author: João Dâmaso
+    //This class is responsible for managing the repositories
+    //It implements the IRepository interface
+    //It has a private ApplicationDbContext object
+    //It has a DbSet object
+    //It has a constructor that receives an ApplicationDbContext object
+    //It has an Add method that receives an entity and adds it to the DbSet object
+    //It has a Get method that receives a filter, includeProperties and tracked and returns the first entity that matches the filter
+    //It has a GetAll method that receives a filter and includeProperties and returns all entities that match the filter
+    //It has a Remove method that receives an entity and removes it from the DbSet object
+    //It has a RemoveRange method that receives a list of entities and removes them from the DbSet object
+
     public class Repository<T> : IRepository<T> where T : class
     {
         private readonly ApplicationDbContext _db;

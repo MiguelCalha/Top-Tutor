@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace TopTutor.Utility
 {
+    //Author: João Dâmaso
+    //Purpose: This class is used to send emails
+
     public class EmailSender : IEmailSender
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)

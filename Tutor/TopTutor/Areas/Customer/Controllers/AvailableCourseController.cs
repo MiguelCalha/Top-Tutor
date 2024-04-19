@@ -6,6 +6,10 @@ using TopTutor.Models;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
+    // Author: Miguel Calha
+    // This controller handles the actions related to available courses for customers.
+    // The customer can view the list of available courses and the details of a specific course.
+
     [Area("Customer")]
     public class AvailableCourseController : Controller
     {

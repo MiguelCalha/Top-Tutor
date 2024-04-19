@@ -5,9 +5,14 @@ using TopTutor.DataAcess.Repository.IRepository;
 using TopTutor.Models;
 using TopTutor.Utility;
 
-//Miguel Calha
+
 namespace TopTutor.Areas.Admin.Controllers
 {
+    //Author: Miguel Calha
+    //This controller handles the CRUD operations related to the Categories. It allows the Admin to create, update,
+    //delete and view the categories.
+    //The Admin can also view the list of categories and the details of a specific category.
+
     [Area("Admin")]
     [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
