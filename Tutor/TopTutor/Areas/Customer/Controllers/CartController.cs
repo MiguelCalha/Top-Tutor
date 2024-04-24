@@ -9,7 +9,7 @@ using TopTutor.Utility;
 
 namespace TopTutor.Areas.Customer.Controllers
 {
-    // Author: Miguel Calha
+    // Author: João Dâmaso
     // This controller handles the actions related to the shopping cart for customers.
     // The customer can view the shopping cart, add products to the shopping cart, remove products from the shopping cart,
     // increase the quantity of a product in the shopping cart, decrease the quantity of a product in the shopping cart,

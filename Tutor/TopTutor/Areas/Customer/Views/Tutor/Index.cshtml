@@ -8,6 +8,12 @@
         <div class="form-group">
             <br />
             <h2>Available Tutors:</h2>
+            <div class="input-group mb-3">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search for tutors...">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button" onclick="searchProducts()">Search</button>
+                </div>
+            </div>
             <div>
                 @foreach (var category in categories)
                 {
@@ -24,12 +30,12 @@
 <div class="row pb-3" id="productList">
     @foreach (var product in Model)
     {
-        <div class="col-lg-3 col-sm-6" data-category="@product.Category.Name">
+        <div class="col-lg-3 col-sm-6 product-card" data-category="@product.Category.Name">
             <div class="row p-2">
                 <div class="col-12 p-1">
-                    <div class="card border-0 p-3 shadow  border-top border-5 rounded">
+                    <div class="card border-0 p-3 shadow border-top border-5 rounded" style="height: 400px;">
                         <img src="@product.ImageUrl" class="card-img-top rounded" />
-                        <div class="card-body pb-0">
+                        <div class="card-body pb-0" style="height: 200px;">
                             <div class="pl-1">
                                 <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p>
                             </div>
@@ -53,7 +59,6 @@
     }
 </div>
 
-
 <script>
     function filterProducts() {
         var selectedCategories = [];
@@ -63,11 +68,9 @@
             selectedCategories.push(checkbox.value);
         });
 
-        var productList = document.getElementById("productList");
-        var products = productList.getElementsByClassName("col-lg-3");
+        var products = document.querySelectorAll('.product-card');
 
-        for (var i = 0; i < products.length; i++) {
-            var product = products[i];
+        products.forEach(function (product) {
             var productCategory = product.getAttribute("data-category");
 
             if (selectedCategories.length === 0 || selectedCategories.includes(productCategory)) {
@@ -75,6 +78,22 @@
             } else {
                 product.style.display = "none";
             }
-        }
+        });
+    }
+
+    function searchProducts() {
+        var searchText = document.getElementById("searchInput").value.toUpperCase();
+        var products = document.querySelectorAll('.product-card');
+
+        products.forEach(function (product) {
+            var productName = product.querySelector(".card-title").innerText.toUpperCase();
+
+            if (productName.includes(searchText)) {
+                product.style.display = "";
+            } else {
+                product.style.display = "none";
+            }
+        });
     }
 </script>
+

@@ -24,6 +24,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
 });
 
+//Adicionar Aqui as Keys API do Facebook e Google e Microsoft
 
 
 builder.Services.AddDistributedMemoryCache();
