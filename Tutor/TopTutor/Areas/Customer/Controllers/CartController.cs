@@ -123,10 +123,6 @@ namespace TopTutor.Areas.Customer.Controllers
 				_unitOfWork.OrderDetail.Add(orderDetail);
 				_unitOfWork.Save();
 			}
-
-            //if its a regular customer capture payment with stripe
-        
-                //it is a regular customer account and we need to capture payment
                 //stripe logic
                 var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new SessionCreateOptions
@@ -143,7 +139,7 @@ namespace TopTutor.Areas.Customer.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmount = (long)(item.Price * 100), // $20.50 => 2050
+                            UnitAmount = (long)(item.Price * 100), 
                             Currency = "eur",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
